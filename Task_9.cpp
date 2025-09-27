@@ -12,14 +12,15 @@ int main () {
     {
     case 1:
     f=2*x;
-    cout <<"Выбрана функция 2*x";
+    cout <<"Выбрана функция 2*x; ";
        break;
     case 2:
     f=x*x*x;
-    cout <<"Выбрана функция x*x*x";
+    cout <<"Выбрана функция x*x*x; ";
     break;
     case 3:
     f=x/3;
+    cout <<"Выбрана функция x/3; ";
     break;
     default:
     cout << "Неверно выбраное f; ";
